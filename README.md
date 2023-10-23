@@ -1,6 +1,4 @@
 # Relation-extraction-
-Relation Extraction project is about finding the relation between 2 concepts.  Sampling Techniques play a significant role in dealing with the class imbalance
-
 At the start of my internship, I was provided with a clinical dataset which had 2 columns which corresponded to 2 concepts and another column which corresponds to the relation between the 2 concepts. The task was to build a model that could extract the relation between any 2 concepts. So I basically treated it as a next word prediction problem where the 2 concepts are given to the model and the model predicts the corresponding relation. However, after doing EDA, I found out that the data was highly imbalanced which hampered the ability to achieve great performance on this data.
 
 Overview of my approach to tackle imbalance
